@@ -149,6 +149,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.hw=0 \
     debug.sf.hw=1 \
     ro.opengles.version=196610 \
+	debug.sf.disable_backpressure=1
     debug.hwui.renderer=opengl \
     debug.sf.disable_client_composition_cache=1 \
     debug.sf.predict_hwc_composition_strategy=0 \

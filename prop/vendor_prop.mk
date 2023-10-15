@@ -183,7 +183,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Network manager
 persist.vendor.data.iwlan.enable=true
-ro.telephony.iwlan_operation_mode=legacy
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \

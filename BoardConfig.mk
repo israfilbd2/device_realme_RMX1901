@@ -174,9 +174,6 @@ SELINUX_IGNORE_NEVERALLOWS := true
 BOARD_SEPOLICY_M4DEFS += \
     persist_camera_prop=vendor_persist_camera_prop
 
-# System-as-root
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
-
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3

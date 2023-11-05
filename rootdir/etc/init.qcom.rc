@@ -282,9 +282,6 @@ on boot
     # Create hvdcp_opti directory
     mkdir /mnt/vendor/persist/hvdcp_opti 0770 root system
 
-    # Lineage Health
-    chown system system /sys/class/power_supply/battery/mmi_charging_enable
-
     #sensors log dir
     mkdir /data/vendor/sensors
     chown system system /data/vendor/sensors

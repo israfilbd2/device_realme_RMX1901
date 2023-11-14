@@ -63,8 +63,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.offload.buffer.size.kb=64 \
     vendor.audio.offload.gapless.enabled=true \
     vendor.audio.offload.multiaac.enable=true \
-	endor.audio.dolby.ds2.enabled=true \
-vendor.audio.dolby.ds2.hardbypass=false \
     vendor.audio.offload.multiple.enabled=false \
     vendor.audio.offload.passthrough=false \
     vendor.audio.offload.track.enable=true \
@@ -126,6 +124,16 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.enable_default_color_mode=1 \
     ro.vendor.display.cabl=2 \
     vendor.display.disable_rotator_downscale=1
+
+# Dolby
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.audio.dolby.ds2.enabled=false \
+    vendor.audio.dolby.ds2.hardbypass=false \
+    ro.vendor.dolby.dax.version=DAX3_3.6.0.12_r1 \
+    ro.vendor.product.device.db=OP_DEVICE \
+    ro.vendor.product.manufacturer.db=OP_PHONE \
+    vendor.product.device=OP_PHONE \
+    vendor.product.manufacturer=OPD
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
